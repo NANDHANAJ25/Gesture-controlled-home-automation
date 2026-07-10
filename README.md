@@ -1,4 +1,4 @@
-# 🖐️ Gesture Control Home Automation using ESP32
+#  Gesture Control Home Automation using ESP32
 
 ## 📌 Overview
 Gesture Control Home Automation is a touch-free smart automation system that enables users to control devices using hand gestures. The system uses **Python**, **OpenCV**, and **MediaPipe** to detect hand landmarks and identify finger movements. The detected finger states are transmitted to an **ESP32** through serial communication, where each finger controls a dedicated LED. This project demonstrates a simple, efficient, and contactless approach to home automation using computer vision and embedded systems.
@@ -40,26 +40,15 @@ Gesture Control Home Automation is a touch-free smart automation system that ena
 
 | Finger | LED |
 |--------|-----|
-| 👍 Thumb | LED 1 |
-| ☝️ Index | LED 2 |
-| 🖕 Middle | LED 3 |
-| 💍 Ring | LED 4 |
-| 🤏 Little | LED 5 |
+|  Thumb | LED 1 |
+|  Index | LED 2 |
+|  Middle | LED 3 |
+|  Ring | LED 4 |
+|  Little | LED 5 |
 
 ---
 
-## 📂 Project Structure
 
-```
-Gesture-Control-Home-Automation/
-│── ESP32_Code/
-│── Python_Code/
-│── README.md
-│── hand_landmarker.task
-│── requirements.txt
-```
-
----
 
 ## 🔧 Hardware Components
 - ESP32 Development Board
@@ -77,11 +66,6 @@ Gesture-Control-Home-Automation/
 - MediaPipe
 - PySerial
 
-Install the required Python libraries:
-
-```bash
-pip install opencv-python mediapipe pyserial
-```
 
 ---
 
@@ -103,6 +87,3 @@ pip install opencv-python mediapipe pyserial
 
 ---
 
-## 👨‍💻 Author
-**Nandhana J**  
-B.Tech Electronics and Communication Engineering
